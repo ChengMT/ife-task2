@@ -1,0 +1,92 @@
+.head {
+    height: 55px;
+    background-color: black;
+    margin: 0 1px 3px 0;
+}
+
+.body {
+    background-color: rgb(222, 222, 222);
+    margin: 1px;
+}
+
+/*全部的内容，包含head和foot*/
+
+.foot {
+    height: 50px;
+    background-color: black;
+    margin: 2px 1px 0 0;
+}
+
+/*分三层*/
+
+.foot-font {
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+/*最下端字体 */
+
+.img-baidu {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+}
+
+.ulist {
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    position: absolute;
+    right: 0px;
+}
+
+.ulist li {
+    display: inline-block;
+}
+
+.ulist li a {
+    color: white;
+}
+
+/* 以上是head部分（黑色）设置*/
+
+/*以下是body部分（内容主体）设置 */
+.text {
+    margin: 20px 20px 20px 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+/*每个内容块的边距*/
+.img-pic {
+}
+
+.img-pic p img {
+    width: 80px;
+}
+
+/*以下是表格内容设置*/
+.table-style {
+      margin: 0 auto;
+    width: 100%;
+      border: 1px  solid;
+    border-color: rgb(204,204,204);
+    border-collapse: collapse;
+
+}
+
+.td-width{
+    width:33.3% ;
+    border: 1px solid;
+    border-color: rgb(204,204,204);
+  }
+
+.form-style{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-style tr td:nth-child(2n+1){
+    text-align: right;
+}
+/*选择表格的第一列*/
+
